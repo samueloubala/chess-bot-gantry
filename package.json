@@ -1,0 +1,19 @@
+{
+  "name": "serialport-example",
+  "version": "1.0.0",
+  "author": "Samuel Oubala",
+  "license": "MIT",
+  "description": "Example of using serialport library in TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/index.js"
+  },
+  "dependencies": {
+    "serialport": "11.0.0",
+    "typescript": "^5.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.6"
+  }
+}
