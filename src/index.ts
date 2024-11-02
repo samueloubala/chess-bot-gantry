@@ -1,3 +1,10 @@
+/*
+ * Node.js program to convert chess moves to gcode commands to be executed using GRBL
+ * Sends commands via two serial ports
+ *    moverPort: X-Y moves
+ *    pickerPort: commands tpo
+ */
+
 import { SerialPort } from 'serialport';
 import readline from 'readline';
 
